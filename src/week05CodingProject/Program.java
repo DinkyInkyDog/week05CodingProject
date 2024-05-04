@@ -12,7 +12,7 @@ public class Program {
 //		a.  log
 //
 //		b.  error
-//
+//check check
 //
 //		3.     Create two classes that implement the Logger interface
 //
