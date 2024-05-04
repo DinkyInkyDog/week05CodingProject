@@ -3,7 +3,7 @@ package week05CodingProject;
 public interface Logger {
 
 	
-	public void log();
+	public void log(String log);
 	
-	public void error();
+	public void error(String error);
 }

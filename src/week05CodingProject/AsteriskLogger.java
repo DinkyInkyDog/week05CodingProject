@@ -2,16 +2,19 @@ package week05CodingProject;
 
 public class AsteriskLogger implements Logger {
 
+
+
 	@Override
-	public void log() {
-		// TODO Auto-generated method stub
+	public void log(String log) {
+		System.out.println("***" + log + "***");
 
 	}
 
 	@Override
-	public void error() {
-		// TODO Auto-generated method stub
+	public void error(String error) {
+		System.out.println("****************");
+		System.out.println("***Error: " + error + "***");
+		System.out.println("****************");
 
 	}
-
 }

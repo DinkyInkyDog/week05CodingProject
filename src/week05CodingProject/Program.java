@@ -52,8 +52,15 @@ public class Program {
 //		a.  In this class instantiate an instance of each of your logger classes that implement the Logger interface.
 //
 //		b. Test both methods on both instances, passing in Strings of your choice.
-
+		String word = "Welcome";
+		Logger consoleLogger = new SpacedLogger();
+		consoleLogger.log("hello");
+		consoleLogger.error(word);
 		
+		
+		Logger consoleLoggerAsterisk = new AsteriskLogger();
+		consoleLoggerAsterisk.log(word);
+		consoleLoggerAsterisk.error(word);
 		
 		
 	}
