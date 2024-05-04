@@ -17,9 +17,9 @@ public class Program {
 //		3.     Create two classes that implement the Logger interface
 //
 //		a.  AsteriskLogger
-//
+//yep
 //		b.  SpacedLogger
-//
+//done
 //
 //		4.  Implement the AsteriskLogger methods:  
 //
@@ -35,7 +35,7 @@ public class Program {
 //		***Error: Hello***
 //
 //		****************
-//
+//I made a error message but it doesn't have anything to cause that message yet. I'm going to need to sit with this one to help me figure it out. 
 //
 //		5. Implement the SpacedLogger methods:
 //
